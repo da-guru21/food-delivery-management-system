@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" modified="2024-03-30T16:47:56.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="TzgdEHV0gWtA154kz56Q" version="24.2.1" type="github">
+  <diagram name="Page-1" id="cG0O9EYu4yRXd9tmuTS3">
+    <mxGraphModel dx="600" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="En88sYZY202Lj3-MpJko-1" value="APP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-2" value="USER" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-3" value="&lt;b&gt;ADMIN DASHBOARD&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-4" value="&lt;b&gt;DATABASE&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-5" value="MM&lt;div&gt;PROVIDER&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-6" value="MM&lt;div&gt;WALLET&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-7" value="Co.&amp;nbsp;&lt;div&gt;BANK&lt;/div&gt;&lt;div&gt;ACCOUNT&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-14" value="place order" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="160" as="sourcePoint" />
+            <mxPoint x="170" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-15" value="login/ signup" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="100" as="sourcePoint" />
+            <mxPoint x="140" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="100" />
+              <mxPoint x="360" y="70" />
+              <mxPoint x="270" y="60" />
+              <mxPoint x="180" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-20" value="confirmation code/ receipt&lt;div&gt;(order pending)&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="En88sYZY202Lj3-MpJko-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="240" />
+              <mxPoint x="400" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-24" value="request to verify&lt;div&gt;user account&lt;/div&gt;" style="curved=1;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="549" as="sourcePoint" />
+            <mxPoint x="80" y="169" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="550" />
+              <mxPoint x="40" y="550" />
+              <mxPoint x="40" y="169" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-26" value="request to pay" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="150" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="210" />
+              <mxPoint x="150" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-27" value="user data" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry x="0.4" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-29" value="deduct funds" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="570" as="sourcePoint" />
+            <mxPoint x="170" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-30" value="refund payment" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="570" as="sourcePoint" />
+            <mxPoint x="460" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-31" value="TRANSFER FUNDS" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="610" as="sourcePoint" />
+            <mxPoint x="690" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="680" />
+              <mxPoint x="690" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-32" value="Co. acct balance" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="540" as="sourcePoint" />
+            <mxPoint x="470" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-33" value="orders and&lt;div&gt;payment status&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0556" y="30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="340" as="sourcePoint" />
+            <mxPoint x="710" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-34" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391" y="320" as="sourcePoint" />
+            <mxPoint x="661" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="391" y="210" />
+              <mxPoint x="661" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-41" value="user data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="En88sYZY202Lj3-MpJko-34">
+          <mxGeometry x="0.0068" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-35" value="inventory status" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="310" as="sourcePoint" />
+            <mxPoint x="680" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-36" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" target="En88sYZY202Lj3-MpJko-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="530" as="sourcePoint" />
+            <mxPoint x="750" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="530" />
+              <mxPoint x="770" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-40" value="FUNDS RECEIVED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="En88sYZY202Lj3-MpJko-36">
+          <mxGeometry x="0.0255" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-37" value="PAYMENT APPROVED" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" target="En88sYZY202Lj3-MpJko-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="110" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="20" />
+              <mxPoint x="90" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-38" value="GIS SERVER" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="En88sYZY202Lj3-MpJko-39" value="all app data collected" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry x="-0.4502" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="400" as="sourcePoint" />
+            <mxPoint x="950" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="400" />
+              <mxPoint x="470" y="401" />
+              <mxPoint x="950" y="401" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
